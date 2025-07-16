@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="../css/css-file/nav.css">
+    <style>
+        .container-1{
+            display: flex;
+        }
+        .container-1 div{
+            border: 2px solid tomato;
+            height: 100px;
+            width: 200px;
+            font-size: 20px;
+        }
+        .container-2{
+            display: flex;
+            gap: 50px;
+        }
+        .box{
+            border: 3px solid blue;
+            height: 80px;
+            width: 150px;
+            font-size: 25px;
+        }
+        .container-3{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .user{
+            border: 2px solid skyblue;
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+        }
+        .container-4{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .learner{
+            border: 2px solid turquoise;
+            height: 100px;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="flex.html" target="_self">Flex.html</a></li>
+            <li><a href="form.html" target="_blank">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="index.html">In page index file</a></li>
+            <li><a href="../index.html">Root file</a></li>
+            <li><a href="center.html">Center</a></li>
+        </ul>
+    </nav>
+   </header>
+   <div class="container-1">
+     <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+   </div>
+
+   <div class="container-2">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+   </div>
+<div class="container-3">
+    <div class="user">User-1</div>
+    <div class="user">User-2</div>
+    <div class="user">User-3</div>
+</div>
+    <div class="container-4">
+        <div class="learner">Learner-1</div>
+        <div class="learner">Learner-2</div>
+        <div class="learner">Learner-3</div>
+        <div class="learner">Learner-4</div>
+        <div class="learner">Learner-5</div>
+        <div class="learner">Learner-6</div>
+        <div class="learner">Learner-7</div>
+        <div class="learner">Learner-8</div>
+        <div class="learner">Learner-9</div>
+        <div class="learner">Learner-10</div>
+        <div class="learner">Learner-11</div>
+        <div class="learner">Learner-12</div>
+        <div class="learner">Learner-13</div>
+        <div class="learner">Learner-14</div>
+        <div class="learner">Learner-15</div>
+        <div class="learner">Learner-16</div>
+    </div>
+</body>
+</html>
